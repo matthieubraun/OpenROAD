@@ -63,7 +63,7 @@ void Rings::checkLayerSpecifications() const
     getLogger()->error(
         utl::PDN,
         180,
-        "Ring cannot be build with layers following the same direction: {}",
+        "Ring cannot be build with layers following the same direction: {}, this is a test",
         layers_[0].layer->getDirection().getString());
   }
 }
